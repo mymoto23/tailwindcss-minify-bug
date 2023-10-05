@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Heading-20 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: -0.20000000298023224px;
+
+	@media screen and (min-width: 640px) {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 28px;
+		letter-spacing: -0.20000000298023224px;
+	}
+}
+
+.Heading-18 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: -0.20000000298023224px;
+
+	@media screen and (min-width: 640px) {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 26px;
+		letter-spacing: -0.20000000298023224px;
+	}
+}
