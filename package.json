@@ -4,6 +4,9 @@
 	"main": "index.js",
 	"author": "mymoto23 <mymoto23@naver.com>",
 	"license": "MIT",
+	"scripts": {
+		"build": "tailwindcss build -i main.css -o output.css --minify --postcss"
+	},
 	"dependencies": {
 		"tailwindcss": "^3.3.3"
 	}

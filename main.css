@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .Heading-20 {
 	font-size: 16px;
 	font-weight: 600;
